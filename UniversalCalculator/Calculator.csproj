@@ -125,11 +125,11 @@
     <Compile Include="Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MortgageCalculator.xaml.cs">
-      <DependentUpon>MortgageCalculator.xaml</DependentUpon>
+    <Compile Include="Mortgage.xaml.cs">
+      <DependentUpon>Mortgage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TripCalculator.xaml.cs">
-      <DependentUpon>TripCalculator.xaml</DependentUpon>
+    <Compile Include="Trip.xaml.cs">
+      <DependentUpon>Trip.xaml</DependentUpon>
     </Compile>
     <Compile Include="Utils\Utils.cs" />
     <None Include=".editorconfig" />
@@ -170,16 +170,16 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="CurrencyCalculator.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Menu.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MortgageCalculator.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Mortgage.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resources\NumberButtonControl.Resources.xaml">
       <SubType>Designer</SubType>
@@ -201,9 +201,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TripCalculator.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Trip.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
