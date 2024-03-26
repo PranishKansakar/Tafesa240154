@@ -8,7 +8,52 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-		<TextBlock Text="Currency Calculator" FontSize="35" Margin="0,20,0,20" HorizontalAlignment="Center" FontWeight="ExtraBlack" />
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="5" BorderBrush="Black" Padding="15">
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+				<Image Source="/Images/USA1.png" VerticalAlignment="Top" Height="25" Margin="5"/>
+				<Image Source="/Images/UK1.png"  VerticalAlignment="Top" Height="25" Margin="5"/>
+				<Image Source="/Images/EUR1.png"  VerticalAlignment="Top" Height="25" Margin="5"/>
+				<Image Source="/Images/india1.png"  VerticalAlignment="Top" Height="25" Margin="5"/>
+			</StackPanel>
+
+			<TextBlock Text="Currency Calculator" FontSize="35" Margin="0,20,0,20" HorizontalAlignment="Center" FontWeight="ExtraBlack" />
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+				<TextBlock Text="Amount:" Margin="5" VerticalAlignment="Center" FontSize="18"/>
+				<TextBox x:Name="txtAmount" Margin="5" Width="200"  FontSize="18"/>
+			</StackPanel>
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+				<TextBlock Text="From:" Margin="5" VerticalAlignment="Center" FontSize="15"/>
+				<ComboBox x:Name="cmbFrom" Margin="5" Width="200" VerticalAlignment="Center" FontSize="15">
+					<ComboBoxItem Content="US Dollar"/>
+					<ComboBoxItem Content="Euro"/>
+					<ComboBoxItem Content="British Pound"/>
+					<ComboBoxItem Content="Indian Rupee"/>
+				</ComboBox>
+			</StackPanel>
+
+			<TextBlock x:Name="txtConversionRate" Margin="5" HorizontalAlignment="Center" FontStyle="Oblique" FontSize="15" FontFamily="Helvetica"/>
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+				<TextBlock Text="To:" Margin="5" VerticalAlignment="Center" FontSize="15" />
+				<ComboBox x:Name="cmbTo" Margin="5" Width="200" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="15" >
+					<ComboBoxItem Content="US Dollar"/>
+					<ComboBoxItem Content="Euro"/>
+					<ComboBoxItem Content="British Pound"/>
+					<ComboBoxItem Content="Indian Rupee"/>
+				</ComboBox>
+			</StackPanel>
+
+			<TextBlock x:Name="txtResult" Margin="5" HorizontalAlignment="Center" FontWeight="Bold" FontSize="18"/>
+
+			<StackPanel Orientation="Horizontal">
+				<Button Content="Currency Conversion" Click="CurrencyConversion_Click" Margin="5" MinWidth="200" FontSize="18"/>
+				<Button Content="Exit" Click="Exit_Click" Margin="5" MinWidth="70" FontSize="18"/>
+			</StackPanel>
+
+
+		</StackPanel>
 	</Grid>
 </Page>
