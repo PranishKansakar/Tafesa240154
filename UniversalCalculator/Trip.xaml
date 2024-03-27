@@ -9,25 +9,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-		<TextBlock Text="TRIP CALCULATOR" HorizontalAlignment="Center" FontWeight="Black" VerticalAlignment="Top" FontSize="80" Margin="0,113,0,0"/>
-		<TextBlock Text="Starting Kilometers" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="169,313,0,0" Width="734"/>
-		<TextBlock HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="167,246,0,0" Width="734"><Run Text="Date Hire"/><LineBreak/><Run/></TextBlock>
-		<TextBlock HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="168,393,0,0" Width="734"><Run Text="Ending"/><Run Text=" Kilometers"/></TextBlock>
-		<TextBlock Text="Number of Day Hired" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Center" FontSize="50" Margin="167,0,0,0" Width="734"/>
-		<TextBlock Text="Price per Day" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="167,545,0,0" Width="734"/>
-		<TextBlock Text="Amount to Pay" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="175,671,0,0"/>
-
-		<TextBox HorizontalAlignment="Left" Margin="750,330,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
-		<TextBox x:Name="totalAmount" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,688,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
-		<TextBox x:Name="pricePerDay" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,562,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
-		<TextBox x:Name="dayHired" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,484,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
-		<TextBox HorizontalAlignment="Left" Margin="750,410,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+        <TextBlock HorizontalAlignment="Center" FontWeight="Black" VerticalAlignment="Top" FontSize="80" Margin="0,113,0,0"><Run Text="TRIP"/><Run Text=" COST"/><Run Text=" CALCULATOR"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="24" Margin="1085,339,0,0" Height="110" Width="402"><Run Text="trip calculator c# code"/><LineBreak/><Run Text="with the date"/><Run Text=" will be developed"/><LineBreak/><Run Text="later"/><Run Text=" "/></TextBlock>
+        <TextBlock Text="Starting Kilometers" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="169,313,0,0" Width="734"/>
+        <TextBlock HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="167,246,0,0" Width="734"><Run Text="Date Hire"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="168,393,0,0" Width="734"><Run Text="Ending"/><Run Text=" Kilometers"/></TextBlock>
+        <TextBlock Text="Number of Day Hired" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Center" FontSize="50" Margin="167,0,0,0" Width="734"/>
+        <TextBlock Text="Price per Day" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="167,545,0,0" Width="734"/>
+        <TextBlock Text="Amount to Pay" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="175,671,0,0"/>
 
 
+        <TextBox HorizontalAlignment="Left" Margin="750,330,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+        <TextBox x:Name="totalAmount" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,688,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+        <TextBox x:Name="pricePerDay" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,562,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+        <TextBox x:Name="dayHired" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,484,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+        <TextBox HorizontalAlignment="Left" Margin="750,410,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
 
 
-		<Button x:Name="backMain" Content="Back to Menu " Margin="45,48,0,0" VerticalAlignment="Top" Height="65" Width="245"  Click="Button_Click_1"/>
-		<DatePicker Margin="688,269,0,0" VerticalAlignment="Top" Width="418"/>
-		<Button Content="Calculate Total" Height="94" Margin="716,798,0,0" VerticalAlignment="Top" Width="362" Click="Button_Click" FontSize="36" FontWeight="Bold" FontFamily="Century Gothic"/>
-	</Grid>
+
+
+        <Button x:Name="backMain" Content="Back to Menu " Margin="45,48,0,0" VerticalAlignment="Top" Height="65" Width="245"  Click="Button_Click_1"/>
+        <DatePicker Margin="688,269,0,0" VerticalAlignment="Top" Width="418"/>
+        <Button Content="Calculate Total" Height="94" Margin="716,798,0,0" VerticalAlignment="Top" Width="362" Click="Button_Click" FontSize="36" FontWeight="Bold" FontFamily="Century Gothic"/>
+    </Grid>
 </Page>
