@@ -16,7 +16,7 @@
 			<Button Content="Mortgage Calculator" Width="500" Height="100" Margin="0,10,0,0" FontSize="50" Click="Button_Click_1"/>
 			<Button Content="Currency Calculator" Width="500" Height="100" Margin="0,10,0,0" FontSize="50" Click="Button_Click_2" />
 			<Button Content="Trip Calculator" Width="500" Height="100" Margin="0,10,0,0" FontSize="50" Click="Button_Click_3" />
-			<Button Content="Exit" Width="500" Height="100" Margin="0,10,0,0" FontSize="50" Click="Button_Click_4" />
+			<Button Content="Exit" Width="500" Height="100" Margin="0,10,0,0" FontSize="50" Click="Exit_Click_Button"  />
 			
 		</StackPanel>
 		<Image Source="Images/abacus.PNG" Stretch="Uniform" HorizontalAlignment="Right" VerticalAlignment="Top" MaxHeight="150"/>

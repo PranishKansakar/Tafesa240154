@@ -47,7 +47,9 @@ namespace Calculator
 			Frame.Navigate(typeof(Trip));
 		}
 
-		private void Button_Click_4(object sender, RoutedEventArgs e)
+	
+
+		private void Exit_Click_Button(object sender, RoutedEventArgs e)
 		{
 			Application.Current.Exit();
 		}
