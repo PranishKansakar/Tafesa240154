@@ -17,16 +17,16 @@
 		<TextBlock Text="Price per Day" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="167,545,0,0" Width="734"/>
 		<TextBlock Text="Amount to Pay" HorizontalAlignment="Left" FontWeight="Black" VerticalAlignment="Top" FontSize="50" Margin="175,671,0,0"/>
 
-		<TextBox HorizontalAlignment="Left" Margin="750,330,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298" CornerRadius="25" Height="50" BorderThickness="6"/>
-		<TextBox x:Name="totalAmount" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,688,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298" CornerRadius="25" Height="50" BorderThickness="6" TextChanged="totalAmount_TextChanged"/>
-		<TextBox x:Name="pricePerDay" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,562,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298" CornerRadius="25" Height="50" BorderThickness="6" TextChanged="pricePerDay_TextChanged"/>
-		<TextBox x:Name="dayHired" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,484,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298" CornerRadius="25" Height="50" BorderThickness="6" TextChanged="dayHired_TextChanged"/>
-		<TextBox HorizontalAlignment="Left" Margin="750,410,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298" CornerRadius="25" Height="50" BorderThickness="6"/>
+		<TextBox HorizontalAlignment="Left" Margin="750,330,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+		<TextBox x:Name="totalAmount" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,688,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+		<TextBox x:Name="pricePerDay" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,562,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+		<TextBox x:Name="dayHired" HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Margin="750,484,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
+		<TextBox HorizontalAlignment="Left" Margin="750,410,0,0" FontFamily="Century Gothic" FontSize="30" TextAlignment="Center"  Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.088,-2.875" Width="298"  Height="50" BorderThickness="6"/>
 
 
 
 
-		<Button x:Name="backMain" Content="Back to Menu " Margin="45,48,0,0" VerticalAlignment="Top" Height="65" Width="245" CornerRadius="30" Click="Button_Click_1"/>
+		<Button x:Name="backMain" Content="Back to Menu " Margin="45,48,0,0" VerticalAlignment="Top" Height="65" Width="245"  Click="Button_Click_1"/>
 		<DatePicker Margin="688,269,0,0" VerticalAlignment="Top" Width="418"/>
 		<Button Content="Calculate Total" Height="94" Margin="716,798,0,0" VerticalAlignment="Top" Width="362" Click="Button_Click" FontSize="36" FontWeight="Bold" FontFamily="Century Gothic"/>
 	</Grid>

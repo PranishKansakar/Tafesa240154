@@ -42,7 +42,7 @@
 				<Button x:Name="calculateButton" Content="Calculate " FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" Padding="0,0,0,0" Click="calculateButton_Click"></Button>
 			</StackPanel>
 			<StackPanel Margin="10" Orientation="Horizontal" HorizontalAlignment="Center">
-				<Button x:Name="exitButton" Content="Exit " FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" Padding="0,0,0,0"/>
+				<Button x:Name="exitButton" Content="Exit " FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" Padding="0,0,0,0" Click="exitButton_Click_1"/>
             </StackPanel>
 		</StackPanel>
 	</Grid>

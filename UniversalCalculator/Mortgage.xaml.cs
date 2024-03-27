@@ -57,9 +57,11 @@ namespace Calculator
 			return monthlyPayment;
 		}
 
-		//private void exitButton_Click(object sender, RoutedEventArgs e)
-		//{
-		//	//Frame.Navigate(typeof(Menu.MainPage));
-		//}
+	
+
+		private void exitButton_Click_1(object sender, RoutedEventArgs e)
+		{
+			Frame.Navigate(typeof(Menu));
+		}
 	}
 }
